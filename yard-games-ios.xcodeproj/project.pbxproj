@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D60D9371AAD84BA8CDE157 /* Pods_yard_games_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B409D58601A07BA34514A1 /* Pods_yard_games_ios.framework */; };
+		D394C57A1D1DC763001FFA13 /* globe-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5751D1DC763001FFA13 /* globe-icon@2x.png */; };
+		D394C57B1D1DC763001FFA13 /* profile-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5761D1DC763001FFA13 /* profile-icon@2x.png */; };
+		D394C57C1D1DC763001FFA13 /* profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5771D1DC763001FFA13 /* profile@2x.png */; };
+		D394C57D1D1DC763001FFA13 /* question@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5781D1DC763001FFA13 /* question@2x.png */; };
+		D394C57E1D1DC763001FFA13 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5791D1DC763001FFA13 /* star@2x.png */; };
+		D394C5801D1DC798001FFA13 /* YGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394C57F1D1DC798001FFA13 /* YGViewController.swift */; };
+		D394C5821D1DC7B5001FFA13 /* YGHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394C5811D1DC7B5001FFA13 /* YGHomeViewController.swift */; };
+		D394C5841D1DD027001FFA13 /* YGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394C5831D1DD027001FFA13 /* YGButton.swift */; };
+		D394C5861D1DE0FD001FFA13 /* YGLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394C5851D1DE0FD001FFA13 /* YGLoginViewController.swift */; };
+		D394C5881D1DE124001FFA13 /* YGRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394C5871D1DE124001FFA13 /* YGRegisterViewController.swift */; };
+		D3E074D71D1DC0EE00ED1B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E074D61D1DC0EE00ED1B98 /* AppDelegate.swift */; };
+		D3E074DE1D1DC0EF00ED1B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E074DD1D1DC0EF00ED1B98 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37B409D58601A07BA34514A1 /* Pods_yard_games_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yard_games_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		758AF10C634D2095F2E5C5FA /* Pods-yard-games-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yard-games-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yard-games-ios/Pods-yard-games-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		9DBBF0810C514DA94C4E6301 /* Pods-yard-games-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yard-games-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-yard-games-ios/Pods-yard-games-ios.release.xcconfig"; sourceTree = "<group>"; };
+		D394C5751D1DC763001FFA13 /* globe-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe-icon@2x.png"; sourceTree = "<group>"; };
+		D394C5761D1DC763001FFA13 /* profile-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-icon@2x.png"; sourceTree = "<group>"; };
+		D394C5771D1DC763001FFA13 /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@2x.png"; sourceTree = "<group>"; };
+		D394C5781D1DC763001FFA13 /* question@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question@2x.png"; sourceTree = "<group>"; };
+		D394C5791D1DC763001FFA13 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		D394C57F1D1DC798001FFA13 /* YGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGViewController.swift; sourceTree = "<group>"; };
+		D394C5811D1DC7B5001FFA13 /* YGHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGHomeViewController.swift; sourceTree = "<group>"; };
+		D394C5831D1DD027001FFA13 /* YGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGButton.swift; sourceTree = "<group>"; };
+		D394C5851D1DE0FD001FFA13 /* YGLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGLoginViewController.swift; sourceTree = "<group>"; };
+		D394C5871D1DE124001FFA13 /* YGRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGRegisterViewController.swift; sourceTree = "<group>"; };
+		D3E074D31D1DC0EE00ED1B98 /* yard-games-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yard-games-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E074D61D1DC0EE00ED1B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3E074DD1D1DC0EF00ED1B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3E074E21D1DC0EF00ED1B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3E074D01D1DC0EE00ED1B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D60D9371AAD84BA8CDE157 /* Pods_yard_games_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170B3A209A979DF38A718937 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				758AF10C634D2095F2E5C5FA /* Pods-yard-games-ios.debug.xcconfig */,
+				9DBBF0810C514DA94C4E6301 /* Pods-yard-games-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7FF9494CB55ADA2DE50BD292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37B409D58601A07BA34514A1 /* Pods_yard_games_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D394C56E1D1DC72F001FFA13 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D394C57F1D1DC798001FFA13 /* YGViewController.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		D394C56F1D1DC738001FFA13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D394C5701D1DC73E001FFA13 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D394C5811D1DC7B5001FFA13 /* YGHomeViewController.swift */,
+				D394C5851D1DE0FD001FFA13 /* YGLoginViewController.swift */,
+				D394C5871D1DE124001FFA13 /* YGRegisterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D394C5711D1DC745001FFA13 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D394C5721D1DC74B001FFA13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D394C5831D1DD027001FFA13 /* YGButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D394C5731D1DC763001FFA13 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D394C5741D1DC763001FFA13 /* icons */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D394C5741D1DC763001FFA13 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				D394C5751D1DC763001FFA13 /* globe-icon@2x.png */,
+				D394C5761D1DC763001FFA13 /* profile-icon@2x.png */,
+				D394C5771D1DC763001FFA13 /* profile@2x.png */,
+				D394C5781D1DC763001FFA13 /* question@2x.png */,
+				D394C5791D1DC763001FFA13 /* star@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		D3E074CA1D1DC0EE00ED1B98 = {
+			isa = PBXGroup;
+			children = (
+				D3E074D51D1DC0EE00ED1B98 /* yard-games-ios */,
+				D3E074D41D1DC0EE00ED1B98 /* Products */,
+				170B3A209A979DF38A718937 /* Pods */,
+				7FF9494CB55ADA2DE50BD292 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E074D41D1DC0EE00ED1B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E074D31D1DC0EE00ED1B98 /* yard-games-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E074D51D1DC0EE00ED1B98 /* yard-games-ios */ = {
+			isa = PBXGroup;
+			children = (
+				D394C5731D1DC763001FFA13 /* Images */,
+				D394C5721D1DC74B001FFA13 /* Views */,
+				D394C5711D1DC745001FFA13 /* Utils */,
+				D394C5701D1DC73E001FFA13 /* ViewControllers */,
+				D394C56F1D1DC738001FFA13 /* Models */,
+				D394C56E1D1DC72F001FFA13 /* BaseClasses */,
+				D3E074D61D1DC0EE00ED1B98 /* AppDelegate.swift */,
+				D3E074DD1D1DC0EF00ED1B98 /* Assets.xcassets */,
+				D3E074E21D1DC0EF00ED1B98 /* Info.plist */,
+			);
+			path = "yard-games-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3E074D21D1DC0EE00ED1B98 /* yard-games-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E074E51D1DC0EF00ED1B98 /* Build configuration list for PBXNativeTarget "yard-games-ios" */;
+			buildPhases = (
+				CF1787B737A01090EEE63087 /* 📦 Check Pods Manifest.lock */,
+				D3E074CF1D1DC0EE00ED1B98 /* Sources */,
+				D3E074D01D1DC0EE00ED1B98 /* Frameworks */,
+				D3E074D11D1DC0EE00ED1B98 /* Resources */,
+				B4BA732057620DD56DC85D6F /* 📦 Embed Pods Frameworks */,
+				17EC1CF359F654E8CBEAD70D /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yard-games-ios";
+			productName = "yard-games-ios";
+			productReference = D3E074D31D1DC0EE00ED1B98 /* yard-games-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E074CB1D1DC0EE00ED1B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Milkshake Tech";
+				TargetAttributes = {
+					D3E074D21D1DC0EE00ED1B98 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 98626S38U9;
+					};
+				};
+			};
+			buildConfigurationList = D3E074CE1D1DC0EE00ED1B98 /* Build configuration list for PBXProject "yard-games-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3E074CA1D1DC0EE00ED1B98;
+			productRefGroup = D3E074D41D1DC0EE00ED1B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E074D21D1DC0EE00ED1B98 /* yard-games-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3E074D11D1DC0EE00ED1B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D394C57E1D1DC763001FFA13 /* star@2x.png in Resources */,
+				D394C57C1D1DC763001FFA13 /* profile@2x.png in Resources */,
+				D3E074DE1D1DC0EF00ED1B98 /* Assets.xcassets in Resources */,
+				D394C57D1D1DC763001FFA13 /* question@2x.png in Resources */,
+				D394C57A1D1DC763001FFA13 /* globe-icon@2x.png in Resources */,
+				D394C57B1D1DC763001FFA13 /* profile-icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17EC1CF359F654E8CBEAD70D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yard-games-ios/Pods-yard-games-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4BA732057620DD56DC85D6F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yard-games-ios/Pods-yard-games-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF1787B737A01090EEE63087 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E074CF1D1DC0EE00ED1B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D394C5801D1DC798001FFA13 /* YGViewController.swift in Sources */,
+				D394C5861D1DE0FD001FFA13 /* YGLoginViewController.swift in Sources */,
+				D394C5841D1DD027001FFA13 /* YGButton.swift in Sources */,
+				D394C5821D1DC7B5001FFA13 /* YGHomeViewController.swift in Sources */,
+				D3E074D71D1DC0EE00ED1B98 /* AppDelegate.swift in Sources */,
+				D394C5881D1DE124001FFA13 /* YGRegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3E074E31D1DC0EF00ED1B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3E074E41D1DC0EF00ED1B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3E074E61D1DC0EF00ED1B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758AF10C634D2095F2E5C5FA /* Pods-yard-games-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "yard-games-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.milkshake.yard-games-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3E074E71D1DC0EF00ED1B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBBF0810C514DA94C4E6301 /* Pods-yard-games-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "yard-games-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.milkshake.yard-games-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3E074CE1D1DC0EE00ED1B98 /* Build configuration list for PBXProject "yard-games-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E074E31D1DC0EF00ED1B98 /* Debug */,
+				D3E074E41D1DC0EF00ED1B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E074E51D1DC0EF00ED1B98 /* Build configuration list for PBXNativeTarget "yard-games-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E074E61D1DC0EF00ED1B98 /* Debug */,
+				D3E074E71D1DC0EF00ED1B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E074CB1D1DC0EE00ED1B98 /* Project object */;
+}
