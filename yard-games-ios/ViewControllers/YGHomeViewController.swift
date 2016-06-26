@@ -64,6 +64,8 @@ class YGHomeViewController: YGViewController, UIScrollViewDelegate {
             y += height + padding
         }
         
+        self.navigationController?.navigationBarHidden = true
+        
         self.view = view
     }
 
@@ -96,19 +98,19 @@ class YGHomeViewController: YGViewController, UIScrollViewDelegate {
     func btnAction(sender: UIButton){
         
         let buttonTitle = sender.titleLabel?.text?.lowercaseString
-        print("\(buttonTitle)")
-        
-        if(buttonTitle == "join with email"){
-            print("JOIN")
-            let registerVc = YGRegisterViewController()
-            self.presentViewController(registerVc, animated: true, completion: nil)
-        }
+//        print("BUTTON TITLE: \(buttonTitle)")
+
+        let loginVc = YGLoginViewController()
         
         if(buttonTitle == "already have an account? sign in"){
-            print("LOGIN")
-            let loginVc = YGLoginViewController()
-            self.presentViewController(loginVc, animated: true, completion: nil)
+            loginVc.title = "Login"
         }
+        
+        if(buttonTitle == "join with email"){
+            loginVc.title = "Register"
+        }
+
+        self.navigationController?.pushViewController(loginVc, animated: true)
         
     }
 
