@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		26D60D9371AAD84BA8CDE157 /* Pods_yard_games_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B409D58601A07BA34514A1 /* Pods_yard_games_ios.framework */; };
+		D32EAE511D1F07ED0020D7FF /* YGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE501D1F07EC0020D7FF /* YGTextField.swift */; };
+		D32EAE531D1F0F660020D7FF /* YGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE521D1F0F660020D7FF /* YGProfile.swift */; };
+		D32EAE551D1F10800020D7FF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE541D1F10800020D7FF /* Config.swift */; };
+		D32EAE571D1F116A0020D7FF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE561D1F116A0020D7FF /* APIManager.swift */; };
+		D32EAE5A1D1F186C0020D7FF /* YGMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE591D1F186C0020D7FF /* YGMapViewController.swift */; };
 		D394C57A1D1DC763001FFA13 /* globe-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5751D1DC763001FFA13 /* globe-icon@2x.png */; };
 		D394C57B1D1DC763001FFA13 /* profile-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5761D1DC763001FFA13 /* profile-icon@2x.png */; };
 		D394C57C1D1DC763001FFA13 /* profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5771D1DC763001FFA13 /* profile@2x.png */; };
@@ -17,7 +22,6 @@
 		D394C5821D1DC7B5001FFA13 /* YGHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394C5811D1DC7B5001FFA13 /* YGHomeViewController.swift */; };
 		D394C5841D1DD027001FFA13 /* YGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394C5831D1DD027001FFA13 /* YGButton.swift */; };
 		D394C5861D1DE0FD001FFA13 /* YGLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394C5851D1DE0FD001FFA13 /* YGLoginViewController.swift */; };
-		D394C5881D1DE124001FFA13 /* YGRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394C5871D1DE124001FFA13 /* YGRegisterViewController.swift */; };
 		D3E074D71D1DC0EE00ED1B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E074D61D1DC0EE00ED1B98 /* AppDelegate.swift */; };
 		D3E074DE1D1DC0EF00ED1B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E074DD1D1DC0EF00ED1B98 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -26,6 +30,11 @@
 		37B409D58601A07BA34514A1 /* Pods_yard_games_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yard_games_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		758AF10C634D2095F2E5C5FA /* Pods-yard-games-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yard-games-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yard-games-ios/Pods-yard-games-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		9DBBF0810C514DA94C4E6301 /* Pods-yard-games-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yard-games-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-yard-games-ios/Pods-yard-games-ios.release.xcconfig"; sourceTree = "<group>"; };
+		D32EAE501D1F07EC0020D7FF /* YGTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGTextField.swift; sourceTree = "<group>"; };
+		D32EAE521D1F0F660020D7FF /* YGProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGProfile.swift; sourceTree = "<group>"; };
+		D32EAE541D1F10800020D7FF /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		D32EAE561D1F116A0020D7FF /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D32EAE591D1F186C0020D7FF /* YGMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGMapViewController.swift; sourceTree = "<group>"; };
 		D394C5751D1DC763001FFA13 /* globe-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe-icon@2x.png"; sourceTree = "<group>"; };
 		D394C5761D1DC763001FFA13 /* profile-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-icon@2x.png"; sourceTree = "<group>"; };
 		D394C5771D1DC763001FFA13 /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@2x.png"; sourceTree = "<group>"; };
@@ -35,7 +44,6 @@
 		D394C5811D1DC7B5001FFA13 /* YGHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGHomeViewController.swift; sourceTree = "<group>"; };
 		D394C5831D1DD027001FFA13 /* YGButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGButton.swift; sourceTree = "<group>"; };
 		D394C5851D1DE0FD001FFA13 /* YGLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGLoginViewController.swift; sourceTree = "<group>"; };
-		D394C5871D1DE124001FFA13 /* YGRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGRegisterViewController.swift; sourceTree = "<group>"; };
 		D3E074D31D1DC0EE00ED1B98 /* yard-games-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yard-games-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E074D61D1DC0EE00ED1B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E074DD1D1DC0EF00ED1B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +90,7 @@
 		D394C56F1D1DC738001FFA13 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D32EAE521D1F0F660020D7FF /* YGProfile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -89,9 +98,9 @@
 		D394C5701D1DC73E001FFA13 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D394C5811D1DC7B5001FFA13 /* YGHomeViewController.swift */,
 				D394C5851D1DE0FD001FFA13 /* YGLoginViewController.swift */,
-				D394C5871D1DE124001FFA13 /* YGRegisterViewController.swift */,
+				D32EAE591D1F186C0020D7FF /* YGMapViewController.swift */,
+				D394C5811D1DC7B5001FFA13 /* YGHomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -99,6 +108,7 @@
 		D394C5711D1DC745001FFA13 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D32EAE561D1F116A0020D7FF /* APIManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -107,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				D394C5831D1DD027001FFA13 /* YGButton.swift */,
+				D32EAE501D1F07EC0020D7FF /* YGTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +172,7 @@
 				D3E074D61D1DC0EE00ED1B98 /* AppDelegate.swift */,
 				D3E074DD1D1DC0EF00ED1B98 /* Assets.xcassets */,
 				D3E074E21D1DC0EF00ED1B98 /* Info.plist */,
+				D32EAE541D1F10800020D7FF /* Config.swift */,
 			);
 			path = "yard-games-ios";
 			sourceTree = "<group>";
@@ -292,11 +304,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D394C5801D1DC798001FFA13 /* YGViewController.swift in Sources */,
+				D32EAE511D1F07ED0020D7FF /* YGTextField.swift in Sources */,
+				D32EAE571D1F116A0020D7FF /* APIManager.swift in Sources */,
+				D32EAE551D1F10800020D7FF /* Config.swift in Sources */,
 				D394C5861D1DE0FD001FFA13 /* YGLoginViewController.swift in Sources */,
+				D32EAE531D1F0F660020D7FF /* YGProfile.swift in Sources */,
 				D394C5841D1DD027001FFA13 /* YGButton.swift in Sources */,
 				D394C5821D1DC7B5001FFA13 /* YGHomeViewController.swift in Sources */,
 				D3E074D71D1DC0EE00ED1B98 /* AppDelegate.swift in Sources */,
-				D394C5881D1DE124001FFA13 /* YGRegisterViewController.swift in Sources */,
+				D32EAE5A1D1F186C0020D7FF /* YGMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
