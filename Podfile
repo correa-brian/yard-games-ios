@@ -5,5 +5,7 @@ use_frameworks!
 target 'yard-games-ios' do
 
 pod 'Alamofire'
+pod 'Firebase'
+pod 'Firebase/Database'
 
 end
