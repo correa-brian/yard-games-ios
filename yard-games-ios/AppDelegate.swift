@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        FIRApp.configure()
         
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
@@ -24,6 +26,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.makeKeyAndVisible()
         
         return true
+    }
+    
+    func checkCurrentUser(){
+        
+        APIManager.checkCurrentUser { response in
+            if let currentUserInfo = response["currentUser"] as? Dictionary<String, AnyObject>{
+                
+                //                print("\(currentUserInfo)")
+                
+                let currentUser = YGProfile()
+                currentUser.populate(currentUserInfo)
+                
+                let notification = NSNotification(
+                    name: Constants.kUserLoggedInNotification,
+                    object: nil,
+                    userInfo: ["user":currentUserInfo]
+                )
+                
+                let notificationCenter = NSNotificationCenter.defaultCenter()
+                notificationCenter.postNotification(notification)
+            }
+        }
+        
     }
 
     func applicationWillResignActive(application: UIApplication) {
