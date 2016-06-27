@@ -34,7 +34,8 @@ class YGViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        print("CurrentUser: \(YGViewController.currentUser.id)")
+        print("CurrentUserId: \(YGViewController.currentUser.id)")
+        print("CurrentUserName: \(YGViewController.currentUser.email)")
         
     }
     

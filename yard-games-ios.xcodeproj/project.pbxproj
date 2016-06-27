@@ -13,6 +13,12 @@
 		D32EAE551D1F10800020D7FF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE541D1F10800020D7FF /* Config.swift */; };
 		D32EAE571D1F116A0020D7FF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE561D1F116A0020D7FF /* APIManager.swift */; };
 		D32EAE5A1D1F186C0020D7FF /* YGMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE591D1F186C0020D7FF /* YGMapViewController.swift */; };
+		D32EAE5C1D2066BF0020D7FF /* YGPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE5B1D2066BF0020D7FF /* YGPlace.swift */; };
+		D32EAE5E1D2072A10020D7FF /* YGCreatePlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE5D1D2072A10020D7FF /* YGCreatePlaceViewController.swift */; };
+		D32EAE601D2076F50020D7FF /* YGChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE5F1D2076F50020D7FF /* YGChatViewController.swift */; };
+		D32EAE621D2078680020D7FF /* YGChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE611D2078680020D7FF /* YGChatTableViewCell.swift */; };
+		D32EAE641D2078E50020D7FF /* YGPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EAE631D2078E50020D7FF /* YGPost.swift */; };
+		D32EAE661D207AC80020D7FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D32EAE651D207AC80020D7FF /* GoogleService-Info.plist */; };
 		D394C57A1D1DC763001FFA13 /* globe-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5751D1DC763001FFA13 /* globe-icon@2x.png */; };
 		D394C57B1D1DC763001FFA13 /* profile-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5761D1DC763001FFA13 /* profile-icon@2x.png */; };
 		D394C57C1D1DC763001FFA13 /* profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394C5771D1DC763001FFA13 /* profile@2x.png */; };
@@ -35,6 +41,12 @@
 		D32EAE541D1F10800020D7FF /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		D32EAE561D1F116A0020D7FF /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		D32EAE591D1F186C0020D7FF /* YGMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGMapViewController.swift; sourceTree = "<group>"; };
+		D32EAE5B1D2066BF0020D7FF /* YGPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGPlace.swift; sourceTree = "<group>"; };
+		D32EAE5D1D2072A10020D7FF /* YGCreatePlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGCreatePlaceViewController.swift; sourceTree = "<group>"; };
+		D32EAE5F1D2076F50020D7FF /* YGChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGChatViewController.swift; sourceTree = "<group>"; };
+		D32EAE611D2078680020D7FF /* YGChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGChatTableViewCell.swift; sourceTree = "<group>"; };
+		D32EAE631D2078E50020D7FF /* YGPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGPost.swift; sourceTree = "<group>"; };
+		D32EAE651D207AC80020D7FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D394C5751D1DC763001FFA13 /* globe-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe-icon@2x.png"; sourceTree = "<group>"; };
 		D394C5761D1DC763001FFA13 /* profile-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-icon@2x.png"; sourceTree = "<group>"; };
 		D394C5771D1DC763001FFA13 /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@2x.png"; sourceTree = "<group>"; };
@@ -91,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				D32EAE521D1F0F660020D7FF /* YGProfile.swift */,
+				D32EAE5B1D2066BF0020D7FF /* YGPlace.swift */,
+				D32EAE631D2078E50020D7FF /* YGPost.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +115,8 @@
 				D394C5851D1DE0FD001FFA13 /* YGLoginViewController.swift */,
 				D32EAE591D1F186C0020D7FF /* YGMapViewController.swift */,
 				D394C5811D1DC7B5001FFA13 /* YGHomeViewController.swift */,
+				D32EAE5D1D2072A10020D7FF /* YGCreatePlaceViewController.swift */,
+				D32EAE5F1D2076F50020D7FF /* YGChatViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -118,6 +134,7 @@
 			children = (
 				D394C5831D1DD027001FFA13 /* YGButton.swift */,
 				D32EAE501D1F07EC0020D7FF /* YGTextField.swift */,
+				D32EAE611D2078680020D7FF /* YGChatTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +189,7 @@
 				D3E074D61D1DC0EE00ED1B98 /* AppDelegate.swift */,
 				D3E074DD1D1DC0EF00ED1B98 /* Assets.xcassets */,
 				D3E074E21D1DC0EF00ED1B98 /* Info.plist */,
+				D32EAE651D207AC80020D7FF /* GoogleService-Info.plist */,
 				D32EAE541D1F10800020D7FF /* Config.swift */,
 			);
 			path = "yard-games-ios";
@@ -245,6 +263,7 @@
 				D394C57D1D1DC763001FFA13 /* question@2x.png in Resources */,
 				D394C57A1D1DC763001FFA13 /* globe-icon@2x.png in Resources */,
 				D394C57B1D1DC763001FFA13 /* profile-icon@2x.png in Resources */,
+				D32EAE661D207AC80020D7FF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,13 +322,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32EAE5C1D2066BF0020D7FF /* YGPlace.swift in Sources */,
 				D394C5801D1DC798001FFA13 /* YGViewController.swift in Sources */,
+				D32EAE641D2078E50020D7FF /* YGPost.swift in Sources */,
 				D32EAE511D1F07ED0020D7FF /* YGTextField.swift in Sources */,
 				D32EAE571D1F116A0020D7FF /* APIManager.swift in Sources */,
+				D32EAE5E1D2072A10020D7FF /* YGCreatePlaceViewController.swift in Sources */,
 				D32EAE551D1F10800020D7FF /* Config.swift in Sources */,
 				D394C5861D1DE0FD001FFA13 /* YGLoginViewController.swift in Sources */,
 				D32EAE531D1F0F660020D7FF /* YGProfile.swift in Sources */,
 				D394C5841D1DD027001FFA13 /* YGButton.swift in Sources */,
+				D32EAE621D2078680020D7FF /* YGChatTableViewCell.swift in Sources */,
+				D32EAE601D2076F50020D7FF /* YGChatViewController.swift in Sources */,
 				D394C5821D1DC7B5001FFA13 /* YGHomeViewController.swift in Sources */,
 				D3E074D71D1DC0EE00ED1B98 /* AppDelegate.swift in Sources */,
 				D32EAE5A1D1F186C0020D7FF /* YGMapViewController.swift in Sources */,
