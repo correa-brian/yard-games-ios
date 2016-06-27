@@ -54,11 +54,16 @@ class YGHomeViewController: YGViewController, UIScrollViewDelegate {
         self.appNameLabel.textColor = UIColor.whiteColor()
         view.addSubview(self.appNameLabel)
         
+        let offScreen = frame.size.height
+        
         let buttonTitles = ["Already have an account? Sign in", "Join with Email"]
         for btnTitle in buttonTitles {
-            let btn = YGButton(frame: CGRect(x:padding, y: y, width: width, height: height))
+            let btn = YGButton(frame: CGRect(x:padding, y: offScreen, width: width, height: height))
             btn.setTitle(btnTitle, forState: .Normal)
+            
+            btn.tag = Int(y)
             btn.addTarget(self, action: #selector(YGHomeViewController.btnAction(_:)), forControlEvents: .TouchUpInside)
+            
             view.addSubview(btn)
             self.loginButtons.append(btn)
             y += height + padding
@@ -73,6 +78,7 @@ class YGHomeViewController: YGViewController, UIScrollViewDelegate {
         super.viewDidLoad()
         
         self.navigationController?.navigationBarHidden = true
+        self.animateButtons()
 
     }
     
@@ -92,6 +98,26 @@ class YGHomeViewController: YGViewController, UIScrollViewDelegate {
         if (offset == self.view.frame.size.width*2){
             self.view.backgroundColor = UIColor.blackColor()
             self.pageControl.currentPage = 2
+        }
+    }
+    
+    func animateButtons(){
+        
+        for i in 0..<self.loginButtons.count {
+        UIView.animateWithDuration(1.50,
+                                   delay: (0.5+Double(i)*0.1),
+                                   usingSpringWithDamping: 0.5,
+                                   initialSpringVelocity: 0,
+                                   options: .CurveEaseInOut,
+                                   animations: {
+                                    
+                                    let button = self.loginButtons[i]
+                                    var frame = button.frame
+                                    frame.origin.y = CGFloat(button.tag)
+                                    button.frame = frame
+                                    
+            },
+                                   completion: nil)
         }
     }
     
